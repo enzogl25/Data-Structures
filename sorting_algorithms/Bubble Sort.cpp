@@ -8,6 +8,17 @@ using type = int;
 
 // (PT) Implementação do algoritmo Bubble Sort otimizado
 // (EN) Implementation of the optimized Bubble Sort algorithm
+//
+// (PT) Complexidade de tempo:
+// - Melhor caso: O(n) (quando o vetor já está ordenado e nenhuma troca ocorre)
+// - Caso médio: O(n²)
+// - Pior caso: O(n²) (quando o vetor está ordenado na ordem inversa)
+//
+// (EN) Time complexity:
+// - Best case: O(n) (when the array is already sorted and no swaps occur)
+// - Average case: O(n²)
+// - Worst case: O(n²) (when the array is sorted in reverse order)
+// (EN) Implementation of the optimized Bubble Sort algorithm
 vector<type> bubble_sort(vector<type> &v) {
     int n = v.size(); // (PT) Obtém o tamanho do vetor | (EN) Gets the vector size
     bool swapped;
